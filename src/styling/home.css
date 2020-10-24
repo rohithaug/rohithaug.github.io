@@ -4,30 +4,11 @@
   color: white;
 }
 
-.vertical-align {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.hello {
+.text {
   color: #d4d4d4;
   font-size: 8vh;
   font-family: "Comic Sans MS";
   cursor: pointer;
-}
-
-.smiley {
-  font-family: "Verdana";
-  font-size: 9vh;
-  transition: transform 250ms;
-  display: inline-block;
-}
-
-.smiley:hover {
-  color: #12efcd;
-  transform: scale(1.5);
 }
 
 .cursor {
@@ -42,6 +23,18 @@ a.social {
 }
 
 a.social:hover {
+  color: #12efcd;
+  transform: scale(1.5);
+}
+
+.smiley {
+  font-family: "Verdana";
+  font-size: 9vh;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.smiley:hover {
   color: #12efcd;
   transform: scale(1.5);
 }

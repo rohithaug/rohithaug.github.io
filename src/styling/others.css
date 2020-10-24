@@ -1,0 +1,19 @@
+.content {
+  background-color: #1d1d1d;
+  height: 100vh;
+  color: white;
+}
+
+.text {
+  color: #d4d4d4;
+  font-size: 8vh;
+  font-family: "Comic Sans MS";
+  cursor: pointer;
+}
+
+.emoji {
+  color: #d4d4d4;
+  font-size: 20vh !important;
+  font-family: "Comic Sans MS";
+  cursor: pointer;
+}

@@ -17,7 +17,7 @@ class Home extends Component {
           <div className="row align-items-center h-100">
             <div className="col offset-md-2">
               <Typing speed={75} cursorClassName="cursor">
-                <div className="hello">
+                <div className="text">
                   <span>Hi there!</span>
                   <Typing.Delay ms={500} /> <br />
                   <span>I'm Rohith </span>
