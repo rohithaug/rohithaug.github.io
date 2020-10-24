@@ -1,0 +1,47 @@
+.content {
+  background-color: #1d1d1d;
+  height: 100vh;
+  color: white;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hello {
+  color: #d4d4d4;
+  font-size: 8vh;
+  font-family: "Comic Sans MS";
+  cursor: pointer;
+}
+
+.smiley {
+  font-family: "Verdana";
+  font-size: 9vh;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.smiley:hover {
+  color: #12efcd;
+  transform: scale(1.5);
+}
+
+.cursor {
+  color: orange !important;
+}
+
+a.social {
+  color: #7d8984;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  color: #12efcd;
+  transform: scale(1.5);
+}
