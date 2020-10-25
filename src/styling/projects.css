@@ -14,3 +14,30 @@
 .cursor {
   color: orange !important;
 }
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: #d4d4d4;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+  color: #12efcd;
+  background-color: #1d1d1d;
+  border-color: #1d1d1d #1d1d1d #dee2e6;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #12efcd;
+  background-color: #1d1d1d;
+  border-color: #dee2e6 #dee2e6 #1d1d1d;
+}
+
+.root {
+  max-width: 400px;
+}
+
+.media {
+  height: 150px;
+}

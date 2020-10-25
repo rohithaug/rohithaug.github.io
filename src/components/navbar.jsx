@@ -23,7 +23,12 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/about" className="nav-link">
+              <Link
+                to="/about"
+                className="nav-link"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
+              >
                 About
               </Link>
             </li>
@@ -52,34 +57,29 @@ class Navbar extends Component {
 export default Navbar;
 
 /*
-      <nav className="navbar navbar-expand-sm navbar-inverse navbar-fixed-top">
-        <div className="container-fluid">
-          <div className="navbar-header">
-            <button
-              type="button"
-              className="navbar-toggle"
-              data-toggle="collapse"
-              data-target="#myNavbar"
-            >
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#portfolio">Things I Love</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div id="top"></div>
 */
