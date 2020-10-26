@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styling/projects.css";
-import {
-  Card,
-  CardActionArea,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Button,
-  Typography,
-} from "@material-ui/core";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInNewIcon from "@material-ui/icons/OpenInNew";
+
+//Import Projects
+import PathfindingVisualizerCard from "../projects/react/pathfindingVisualizer";
+import SortingVisualizerCard from "../projects/python/sortingVisualizer";
+import SudokuSolverCard from "../projects/python/sudokuSolver";
+import TextEditorCard from "../projects/python/textEditor";
+import Covid19IndiaDataCard from "../projects/python/covid19IndiaData";
+import BattleOfNeighborhoodsCard from "../projects/dataAnalysis/battleOfNeighborhoods";
+import IrisFlowerClassificationCard from "../projects/dataAnalysis/irisFlowerClassification";
+import Covid19IndiaVizCard from "../projects/tableau/covid19IndiaViz";
+import MoMWeek23Card from "../projects/tableau/momWeek23";
+import MoMWeek24Card from "../projects/tableau/momWeek24";
 
 class Projects extends Component {
   render() {
@@ -31,23 +32,40 @@ class Projects extends Component {
               <li className="nav-item">
                 <Link
                   to={{
-                    hash: "#react",
+                    hash: "#all",
                   }}
                   className={
                     "nav-link" +
-                    (currentTab === "#react" || hashPosition === -1
+                    (currentTab === "#all" || hashPosition === -1
                       ? " active"
                       : "")
+                  }
+                  id="all-tab"
+                  data-toggle="tab"
+                  role="tab"
+                  aria-controls="all"
+                  aria-selected={
+                    currentTab === "#all" || hashPosition === -1
+                      ? "true"
+                      : "false"
+                  }
+                >
+                  All
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to={{
+                    hash: "#react",
+                  }}
+                  className={
+                    "nav-link" + (currentTab === "#react" ? " active" : "")
                   }
                   id="react-tab"
                   data-toggle="tab"
                   role="tab"
                   aria-controls="react"
-                  aria-selected={
-                    currentTab === "#react" || hashPosition === -1
-                      ? "true"
-                      : "false"
-                  }
+                  aria-selected={currentTab === "#react" ? "true" : "false"}
                 >
                   React
                 </Link>
@@ -109,9 +127,58 @@ class Projects extends Component {
               <div
                 className={
                   "tab-pane fade" +
-                  (currentTab === "#react" || hashPosition === -1
+                  (currentTab === "#all" || hashPosition === -1
                     ? " show active"
                     : "")
+                }
+                id="all"
+                role="tabpanel"
+                aria-labelledby="all-tab"
+              >
+                <div className="container">
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <PathfindingVisualizerCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <SortingVisualizerCard />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <Covid19IndiaDataCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <SudokuSolverCard />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <BattleOfNeighborhoodsCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <TextEditorCard />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <IrisFlowerClassificationCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <MoMWeek23Card />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <MoMWeek24Card />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "tab-pane fade" +
+                  (currentTab === "#react" ? " show active" : "")
                 }
                 id="react"
                 role="tabpanel"
@@ -119,51 +186,9 @@ class Projects extends Component {
               >
                 <div className="container">
                   <div className="row">
-                    <Card className="root">
-                      <CardActionArea>
-                        <CardMedia
-                          className="media"
-                          style={{ height: "250px" }}
-                          image={require("../media/pathfinding-visualizer.jpg")}
-                          title="Pathfinding Visualizer"
-                        />
-                        <CardContent>
-                          <Typography gutterBottom variant="h5" component="h2">
-                            Pathfinding Visualizer
-                          </Typography>
-                          <Typography
-                            variant="body2"
-                            color="textSecondary"
-                            component="p"
-                          >
-                            Website built using React Framework for visualizing
-                            Pathfinding and Maze Generation Algorithms.
-                          </Typography>
-                        </CardContent>
-                      </CardActionArea>
-                      <CardActions>
-                        <Button
-                          startIcon={<GitHubIcon />}
-                          size="medium"
-                          color="primary"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href="https://github.com/rohithaug/pathfinding-visualizer"
-                        >
-                          GITHUB
-                        </Button>
-                        <Button
-                          startIcon={<OpenInNewIcon />}
-                          size="medium"
-                          color="primary"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href="https://rohithaug.github.io/pathfinding-visualizer/"
-                        >
-                          LIVE DEMO
-                        </Button>
-                      </CardActions>
-                    </Card>
+                    <div className="col d-flex justify-content-center">
+                      <PathfindingVisualizerCard />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -176,7 +201,24 @@ class Projects extends Component {
                 role="tabpanel"
                 aria-labelledby="python-tab"
               >
-                Python Tab
+                <div className="container">
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <SortingVisualizerCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <SudokuSolverCard />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <Covid19IndiaDataCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <TextEditorCard />
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 className={
@@ -187,7 +229,16 @@ class Projects extends Component {
                 role="tabpanel"
                 aria-labelledby="analysis-tab"
               >
-                Data Analysis Tab
+                <div className="container">
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <BattleOfNeighborhoodsCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <IrisFlowerClassificationCard />
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 className={
@@ -198,7 +249,21 @@ class Projects extends Component {
                 role="tabpanel"
                 aria-labelledby="tableau-tab"
               >
-                Tableau Tab
+                <div className="container">
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <Covid19IndiaVizCard />
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                      <MoMWeek24Card />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col d-flex justify-content-center">
+                      <MoMWeek23Card />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
