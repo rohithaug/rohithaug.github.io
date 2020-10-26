@@ -25,6 +25,7 @@ class PathfindingVisualizerCard extends Component {
             title="Pathfinding Visualizer"
             controls
             autoPlay
+            muted
             loop
           />
           <CardContent>

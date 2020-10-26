@@ -16,7 +16,7 @@ class BattleOfNeighborhoodsCard extends Component {
   render() {
     return (
       <Card className="root">
-        <CardActionArea>
+        <CardActionArea onClick={this.handleClickOpen}>
           <CardMedia
             className="media"
             style={{
@@ -76,3 +76,69 @@ class BattleOfNeighborhoodsCard extends Component {
 }
 
 export default BattleOfNeighborhoodsCard;
+
+/*
+        {this.state.isOpen && (
+          <Dialog
+            fullScreen
+            open={this.state.isOpen}
+            onClose={this.handleClose}
+            TransitionComponent={Transition}
+          >
+            <AppBar style={{ position: "relative" }}>
+              <Toolbar>
+                <IconButton
+                  edge="start"
+                  color="inherit"
+                  onClick={this.handleClose}
+                  aria-label="close"
+                >
+                  <CloseIcon />
+                </IconButton>
+                <Typography variant="h6">Sound</Typography>
+              </Toolbar>
+            </AppBar>
+            <List>
+              <ListItem button>
+                <ListItemText primary="Phone ringtone" secondary="Titania" />
+              </ListItem>
+              <Divider />
+              <ListItem button>
+                <ListItemText
+                  primary="Default notification ringtone"
+                  secondary="Tethys"
+                />
+              </ListItem>
+            </List>
+          </Dialog>
+        )}
+
+          <Dialog
+            open={this.state.isOpen}
+            keepMounted
+            maxWidth="lg"
+            onClose={this.handleClose}
+            aria-labelledby="battleOfNeighborhoodsDialogueLabel"
+            aria-describedby="battleOfNeighborhoodsDialogueContent"
+          >
+            <DialogTitle id="battleOfNeighborhoodsDialogueLabel">
+              {"Battle of Neighborhoods - Chennai"}
+            </DialogTitle>
+            <DialogContent>
+              <img
+                className="image"
+                src="https://raw.githubusercontent.com/rohithaug/Battle-of-Neighborhoods-Chennai/master/images/5_example.png"
+                onClick={this.handleShowDialog}
+                alt="Battle of Neighborhoods - Chennai"
+              />
+            </DialogContent>
+            <DialogActions>
+              <Button onClick={this.handleClose} color="primary">
+                Disagree
+              </Button>
+              <Button onClick={this.handleClose} color="primary">
+                Agree
+              </Button>
+            </DialogActions>
+          </Dialog>          
+*/

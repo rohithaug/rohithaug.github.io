@@ -30,7 +30,8 @@ class MoMWeek24Card extends Component {
               src={require("../../media/week24Card.png")}
               alt="MoM Week 24"
               style={{
-                height: "210px",
+                marginTop: "2px",
+                height: "208px",
               }}
             />
           </CardMedia>
