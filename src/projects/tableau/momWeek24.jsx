@@ -61,7 +61,7 @@ class MoMWeek24Card extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
+            href="https://raw.githubusercontent.com/rohithaug/MakeoverMonday/master/week24.png"
           >
             IMAGE
           </Button>

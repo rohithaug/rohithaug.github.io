@@ -19,11 +19,13 @@ class PathfindingVisualizerCard extends Component {
         <CardActionArea>
           <CardMedia
             className="media"
-            component="iframe"
+            component="video"
             style={{ height: "210px" }}
             image={require("../../media/pathfinding-visualizer.mp4")}
             title="Pathfinding Visualizer"
+            controls
             autoPlay
+            loop
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
