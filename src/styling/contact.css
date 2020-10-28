@@ -48,3 +48,45 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
   box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
 }
+
+.icons {
+  size: 3vh;
+  color: #7d8984;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  transform: scale(1.5);
+}
+
+.icons:hover {
+  color: #12efcd;
+  transform: scale(2);
+}
+
+.contactText {
+  color: #7d8984;
+  margin: 0.1rem 1rem;
+  font-size: 3vh;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.contactText:hover {
+  color: #12efcd;
+  transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+  .text {
+    font-size: 5vh !important;
+  }
+
+  .icons {
+    transform: scale(1);
+  }
+
+  .contactText {
+    margin: 0.1rem 0.3rem;
+    font-size: 2vh;
+  }
+}

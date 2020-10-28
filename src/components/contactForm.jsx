@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../styling/contact.css";
-import Typing from "react-typing-animation";
 
 class ContactForm extends Component {
   constructor(props) {
@@ -30,16 +29,6 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        <div className="row">
-          <div className="col">
-            <Typing speed={50} cursorClassName="cursor">
-              <div className="text">
-                <span>Contact Me </span>
-                <Typing.Delay ms={99999999} />
-              </div>
-            </Typing>
-          </div>
-        </div>
         <form onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="col">

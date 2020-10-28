@@ -1,23 +1,45 @@
 import React, { Component } from "react";
 import "../styling/resume.css";
-import Typing from "react-typing-animation";
+import { Document, Page, pdfjs } from "react-pdf";
+import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
+import resumePDF from "../media/Rohith-S-P-Resume.pdf";
+import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
 
 class Resume extends Component {
+  constructor(props) {
+    super(props);
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+  }
+
   render() {
     return (
       <div>
         <div className="content">
           <div className="container h-100">
-            <div className="row align-items-center h-100">
-              <div className="col offset-md-2">
-                <Typing speed={50} cursorClassName="cursor">
-                  <div className="text">
-                    <span>Resume - Yet to be updated.</span>
-                    <Typing.Delay ms={99999999} />
-                  </div>
-                </Typing>
+            <br /> <br /> <br />
+            <div className="row">
+              <div className="col">
+                <AutoSizer disableHeight>
+                  {({ width }) => (
+                    <Document file={resumePDF}>
+                      <Page key={`page_1`} pageNumber={1} width={width} />
+                      <Page key={`page_2`} pageNumber={2} width={width} />
+                    </Document>
+                  )}
+                </AutoSizer>
               </div>
             </div>
+            <br />
+            <div className="row">
+              <div className="col" style={{ textAlign: "right" }}>
+                <a href={resumePDF} download="Rohith-S-P-Resume.pdf">
+                  <div type="submit" className="btn btn-outline-info">
+                    DOWNLOAD <PictureAsPdfIcon />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <br />
           </div>
         </div>
       </div>
@@ -26,3 +48,13 @@ class Resume extends Component {
 }
 
 export default Resume;
+
+/*
+                    {Array.from(new Array(numPages), (el, index) => (
+                      <Page
+                        key={`page_${index + 1}`}
+                        pageNumber={index + 1}
+                        width={width}
+                      />
+                    ))}
+*/

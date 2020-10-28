@@ -20,7 +20,7 @@ class Home extends Component {
                 <div className="text">
                   <span>Hi there!</span>
                   <Typing.Delay ms={500} /> <br />
-                  <span>I'm Rohith </span>
+                  <span>I'm Rohith,</span>
                   <Typing.Delay ms={500} /> <br />
                   <span>Software Developer.</span>
                   <Typing.Delay ms={99999999} />

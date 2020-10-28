@@ -14,3 +14,7 @@
 .cursor {
   color: orange !important;
 }
+
+.pdfFile {
+  max-width: 600px;
+}
