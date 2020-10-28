@@ -10,7 +10,8 @@ class PageNotFound extends Component {
             <div className="row align-items-center h-100">
               <div className="col" align="center">
                 <div className="text">
-                  Oops! The requested page was not found <br />
+                  Oops! <br />
+                  The requested page was not found <br />
                 </div>
                 <div className="emoji">&#x2639;</div>
               </div>
