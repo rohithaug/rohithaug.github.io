@@ -14,3 +14,34 @@
 .cursor {
   color: orange !important;
 }
+
+.text-content {
+  color: #d4d4d4;
+  font-family: "Comic Sans MS";
+  line-height: 1.6;
+}
+
+.PSGCollege {
+  color: #12efcd;
+  transition: transform 250ms;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.PSGCollege:hover {
+  color: #12efcd;
+  transform: scale(1.05);
+}
+
+.rohithPic {
+  max-width: 275px;
+  max-height: 275px;
+  border-radius: 5%;
+  box-shadow: 12px 12px 0 0 #12efcd;
+  transition: box-shadow ease-in 150ms;
+}
+
+.rohithPic:hover {
+  box-shadow: 8px 8px 0 0 #12efcd;
+}
