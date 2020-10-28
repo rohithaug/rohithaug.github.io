@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,
@@ -12,7 +12,7 @@ import {
 import ImageIcon from "@material-ui/icons/Image";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
-class MoMWeek23Card extends Component {
+class Covid19IndiaVizCard extends Component {
   render() {
     return (
       <Card className="root">
@@ -24,24 +24,25 @@ class MoMWeek23Card extends Component {
               display: "flex",
               justifyContent: "center",
             }}
-            title="MoM Week 23"
+            title="India covid-19 data"
           >
             <img
-              src={require("../../media/week23.png")}
-              alt="MoM Week 23"
+              src={
+                "https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
+              }
+              alt="India covid-19 data"
               style={{
-                marginTop: "2px",
-                height: "208px",
+                height: "210px",
               }}
             />
           </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Animal-free products consumption
+              India covid-19 data
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              #MakeoverMonday visualization for Week 23, 2020 on Animal-free
-              products consumption in Great Britain.
+              Visualize the covid-19 data of India as of 8th May 2020 - IST
+              05:00 P.M.
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -52,7 +53,7 @@ class MoMWeek23Card extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://public.tableau.com/profile/rohithsp#!/vizhome/MakeoverMonday-2020-Week-23/MakeoverMonday-2020-Week-23"
+            href="https://public.tableau.com/profile/rohithsp#!/vizhome/Indiacovid-19data/covid19data"
           >
             LIVE DASHBOARD
           </Button>
@@ -62,7 +63,7 @@ class MoMWeek23Card extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/MakeoverMonday/master/week23.png"
+            href="https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
           >
             IMAGE
           </Button>
@@ -72,4 +73,4 @@ class MoMWeek23Card extends Component {
   }
 }
 
-export default MoMWeek23Card;
+export default Covid19IndiaVizCard;

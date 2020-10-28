@@ -4,7 +4,7 @@
   color: white;
 }
 
-.text {
+.text-title {
   color: #d4d4d4;
   font-size: 7vh !important;
   font-family: "Comic Sans MS";
@@ -13,40 +13,6 @@
 
 .cursor {
   color: orange !important;
-}
-
-.form-control {
-  background-color: #2b2b2b !important;
-  border-color: #1d1d1d #1d1d1d #1d1d1d !important;
-  border-radius: 0rem !important;
-}
-
-.form-control:focus {
-  border-color: #12efcd !important;
-  box-shadow: none !important;
-}
-
-input,
-textarea:not(:placeholder-shown) {
-  color: #d4d4d4 !important;
-  background-color: #2b2b2b !important;
-  border-color: #1d1d1d #1d1d1d #1d1d1d;
-}
-
-input,
-textarea:placeholder-shown {
-  color: #d4d4d4 !important;
-  background-color: #2b2b2b !important;
-  border-color: #1d1d1d #1d1d1d #1d1d1d;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  -webkit-text-fill-color: #d4d4d4 !important;
-  -webkit-box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
-  box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
 }
 
 .icons {
@@ -89,4 +55,38 @@ input:-webkit-autofill:active {
     margin: 0.1rem 0.3rem;
     font-size: 2vh;
   }
+}
+
+.form-control {
+  background-color: #2b2b2b !important;
+  border-color: #1d1d1d #1d1d1d #1d1d1d !important;
+  border-radius: 0rem !important;
+}
+
+.form-control:focus {
+  border-color: #12efcd !important;
+  box-shadow: none !important;
+}
+
+input,
+textarea:not(:placeholder-shown) {
+  color: #d4d4d4 !important;
+  background-color: #2b2b2b !important;
+  border-color: #1d1d1d #1d1d1d #1d1d1d;
+}
+
+input,
+textarea:placeholder-shown {
+  color: #d4d4d4 !important;
+  background-color: #2b2b2b !important;
+  border-color: #1d1d1d #1d1d1d #1d1d1d;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #d4d4d4 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
+  box-shadow: 0 0 0px 1000px #2b2b2b inset !important;
 }

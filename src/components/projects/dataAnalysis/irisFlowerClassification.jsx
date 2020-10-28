@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,
@@ -9,10 +9,10 @@ import {
   Button,
   Typography,
 } from "@material-ui/core";
-import ImageIcon from "@material-ui/icons/Image";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
-class Covid19IndiaVizCard extends Component {
+class IrisFlowerClassificationCard extends Component {
   render() {
     return (
       <Card className="root">
@@ -24,48 +24,51 @@ class Covid19IndiaVizCard extends Component {
               display: "flex",
               justifyContent: "center",
             }}
-            title="India covid-19 data"
+            title="Iris Flower Classification"
           >
             <img
               src={
-                "https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
+                "https://raw.githubusercontent.com/rohithaug/iris-flower-classification/master/iris_flower_tree.png"
               }
-              alt="India covid-19 data"
+              alt="Iris Flower Classification"
               style={{
                 height: "210px",
+                maxWidth: 400,
               }}
             />
           </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              India covid-19 data
+              Iris Flower Classification
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Visualize the covid-19 data of India as of 8th May 2020 - IST
-              05:00 P.M.
+              Compare the accuracy of different classification algorithms to
+              find the best classifier.The final_model computed can be used to
+              predict the class of the iris flowers given its attribute
+              information.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
+          <Button
+            startIcon={<GitHubIcon />}
+            size="medium"
+            color="primary"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/rohithaug/iris-flower-classification"
+          >
+            GITHUB
+          </Button>
           <Button
             startIcon={<OpenInNewIcon />}
             size="medium"
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://public.tableau.com/profile/rohithsp#!/vizhome/Indiacovid-19data/covid19data"
+            href="https://github.com/rohithaug/iris-flower-classification/blob/master/iris_classification.ipynb"
           >
-            LIVE DASHBOARD
-          </Button>
-          <Button
-            startIcon={<ImageIcon />}
-            size="medium"
-            color="primary"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
-          >
-            IMAGE
+            NOTEBOOK
           </Button>
         </CardActions>
       </Card>
@@ -73,4 +76,4 @@ class Covid19IndiaVizCard extends Component {
   }
 }
 
-export default Covid19IndiaVizCard;
+export default IrisFlowerClassificationCard;

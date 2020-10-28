@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styling/contact.css";
 import Typing from "react-typing-animation";
+import ContactMailIcon from "@material-ui/icons/ContactMail";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
@@ -15,7 +16,7 @@ class Contact extends Component {
             <div className="row">
               <div className="col">
                 <Typing speed={50} cursorClassName="cursor">
-                  <div className="text">
+                  <div className="text-title">
                     <span>Contact Me ...</span>
                     <Typing.Delay ms={99999999} />
                   </div>

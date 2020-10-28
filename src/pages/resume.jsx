@@ -48,13 +48,3 @@ class Resume extends Component {
 }
 
 export default Resume;
-
-/*
-                    {Array.from(new Array(numPages), (el, index) => (
-                      <Page
-                        key={`page_${index + 1}`}
-                        pageNumber={index + 1}
-                        width={width}
-                      />
-                    ))}
-*/

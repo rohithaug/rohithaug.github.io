@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,
@@ -12,25 +12,39 @@ import {
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
-class SortingVisualizerCard extends Component {
+class SudokuSolverCard extends Component {
   render() {
     return (
       <Card className="root">
         <CardActionArea>
           <CardMedia
             className="media"
-            style={{ height: "210px" }}
-            image="https://raw.githubusercontent.com/rohithaug/sorting-visualizer/master/sample.gif"
-            title="Sorting Visualizer"
-          />
+            style={{
+              height: "210px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+            title="Sudoku Solver"
+          >
+            <img
+              src={
+                "https://raw.githubusercontent.com/rohithaug/sudoku-solver/master/sudoku_gui_sample.gif"
+              }
+              alt="Text Editor"
+              style={{
+                height: "210px",
+                width: "250px",
+              }}
+            />
+          </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Sorting Visualizer
+              Sudoku Solver
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              A Graphical User Interface built in Python for visualizing Sorting
-              Algorithms such as Bubble Sort, Quick Sort, Heap Sort, Tim Sort,
-              Heap Sort, Radix Sort, etc. The GUI is built using Pygame.
+              Sudoku generator, solver and a GUI that can be used to solve a
+              sudoku manually or automatically using the concept of
+              backtracking. The difficulty of the game can be varied as well.
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -41,7 +55,7 @@ class SortingVisualizerCard extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/rohithaug/sorting-visualizer"
+            href="https://github.com/rohithaug/sudoku-solver"
           >
             GITHUB
           </Button>
@@ -51,7 +65,7 @@ class SortingVisualizerCard extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://youtu.be/NuB8QzFDjrQ"
+            href="https://raw.githubusercontent.com/rohithaug/sudoku-solver/master/sudoku_gui_sample.gif"
           >
             VIDEO
           </Button>
@@ -61,4 +75,4 @@ class SortingVisualizerCard extends Component {
   }
 }
 
-export default SortingVisualizerCard;
+export default SudokuSolverCard;

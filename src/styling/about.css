@@ -11,8 +11,12 @@
   cursor: pointer;
 }
 
-.cursor {
+.cursor-title {
   color: orange !important;
+}
+
+.cursor-content {
+  color: #12efcd !important;
 }
 
 .text-content {

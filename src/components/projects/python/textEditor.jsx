@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,

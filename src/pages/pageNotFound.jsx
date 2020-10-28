@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styling/others.css";
 
-class Others extends Component {
+class PageNotFound extends Component {
   render() {
     return (
       <div>
@@ -10,7 +10,7 @@ class Others extends Component {
             <div className="row align-items-center h-100">
               <div className="col" align="center">
                 <div className="text">
-                  The requested page was not found <br />
+                  Oops! The requested page was not found <br />
                 </div>
                 <div className="emoji">&#x2639;</div>
               </div>
@@ -22,4 +22,4 @@ class Others extends Component {
   }
 }
 
-export default Others;
+export default PageNotFound;

@@ -5,12 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Helmet } from "react-helmet";
 
 import Navbar from "./components/navbar";
-import Home from "./components/home";
-import About from "./components/about";
-import Projects from "./components/projects";
-import Resume from "./components/resume";
-import Contact from "./components/contact";
-import Others from "./components/others";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Projects from "./pages/projects";
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
+import PageNotFound from "./pages/pageNotFound";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/projects" exact component={Projects} />
         <Route path="/resume" exact component={Resume} />
         <Route path="/contact" exact component={Contact} />
-        <Route component={Others} />
+        <Route component={PageNotFound} />
       </Switch>
     </div>
   );

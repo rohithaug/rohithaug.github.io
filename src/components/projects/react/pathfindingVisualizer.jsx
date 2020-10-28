@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,
@@ -12,40 +12,31 @@ import {
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
-class IrisFlowerClassificationCard extends Component {
+class PathfindingVisualizerCard extends Component {
   render() {
     return (
       <Card className="root">
         <CardActionArea>
           <CardMedia
             className="media"
-            style={{
-              height: "210px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-            title="Iris Flower Classification"
-          >
-            <img
-              src={
-                "https://raw.githubusercontent.com/rohithaug/iris-flower-classification/master/iris_flower_tree.png"
-              }
-              alt="Iris Flower Classification"
-              style={{
-                height: "210px",
-                maxWidth: 400,
-              }}
-            />
-          </CardMedia>
+            component="video"
+            style={{ height: "210px" }}
+            image={require("../../../media/pathfinding-visualizer.mp4")}
+            title="Pathfinding Visualizer"
+            controls
+            autoPlay
+            muted
+            loop
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Iris Flower Classification
+              Pathfinding Visualizer
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Compare the accuracy of different classification algorithms to
-              find the best classifier.The final_model computed can be used to
-              predict the class of the iris flowers given its attribute
-              information.
+              Web Page built using React Framework to visualize Pathfinding
+              Algorithms such as Dijkstra’s, A*, Breadth First Search, etc., and
+              Maze Generation Algorithms such as Recursive Division, Vertical
+              Division, etc.
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -56,7 +47,7 @@ class IrisFlowerClassificationCard extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/rohithaug/iris-flower-classification"
+            href="https://github.com/rohithaug/pathfinding-visualizer"
           >
             GITHUB
           </Button>
@@ -66,9 +57,9 @@ class IrisFlowerClassificationCard extends Component {
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/rohithaug/iris-flower-classification/blob/master/iris_classification.ipynb"
+            href="https://rohithaug.github.io/pathfinding-visualizer/"
           >
-            NOTEBOOK
+            LIVE DEMO
           </Button>
         </CardActions>
       </Card>
@@ -76,4 +67,4 @@ class IrisFlowerClassificationCard extends Component {
   }
 }
 
-export default IrisFlowerClassificationCard;
+export default PathfindingVisualizerCard;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../styling/projects.css";
+import "../../../styling/projects.css";
 import {
   Card,
   CardActionArea,
@@ -9,10 +9,10 @@ import {
   Button,
   Typography,
 } from "@material-ui/core";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import ImageIcon from "@material-ui/icons/Image";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
-class SudokuSolverCard extends Component {
+class MoMWeek24Card extends Component {
   render() {
     return (
       <Card className="root">
@@ -24,50 +24,47 @@ class SudokuSolverCard extends Component {
               display: "flex",
               justifyContent: "center",
             }}
-            title="Sudoku Solver"
+            title="MoM Week 24"
           >
             <img
-              src={
-                "https://raw.githubusercontent.com/rohithaug/sudoku-solver/master/sudoku_gui_sample.gif"
-              }
-              alt="Text Editor"
+              src={require("../../../media/week24Card.png")}
+              alt="MoM Week 24"
               style={{
-                height: "210px",
-                width: "250px",
+                marginTop: "2px",
+                height: "208px",
               }}
             />
           </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Sudoku Solver
+              Female High School Athletes
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Sudoku generator, solver and a GUI that can be used to solve a
-              sudoku manually or automatically using the concept of
-              backtracking. The difficulty of the game can be varied as well.
+              #MakeoverMonday viz for Week 24, 2020 on Participation Rates of
+              Female High School Athletes in Different Sports.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button
-            startIcon={<GitHubIcon />}
-            size="medium"
-            color="primary"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/rohithaug/sudoku-solver"
-          >
-            GITHUB
-          </Button>
           <Button
             startIcon={<OpenInNewIcon />}
             size="medium"
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/sudoku-solver/master/sudoku_gui_sample.gif"
+            href="https://public.tableau.com/profile/rohithsp#!/vizhome/MakeoverMondayFemaleHighSchoolAthletesinDifferentSports/MakeoverMonday-2020-Week-24"
           >
-            VIDEO
+            LIVE DASHBOARD
+          </Button>
+          <Button
+            startIcon={<ImageIcon />}
+            size="medium"
+            color="primary"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://raw.githubusercontent.com/rohithaug/MakeoverMonday/master/week24.png"
+          >
+            IMAGE
           </Button>
         </CardActions>
       </Card>
@@ -75,4 +72,4 @@ class SudokuSolverCard extends Component {
   }
 }
 
-export default SudokuSolverCard;
+export default MoMWeek24Card;
