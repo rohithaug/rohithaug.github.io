@@ -12,58 +12,55 @@ class Contact extends Component {
         <div className="content">
           <div className="container h-100">
             <br /> <br /> <br />
-            <div className="row">
-              <div className="col">
-                <Typing speed={50} cursorClassName="cursor">
-                  <div className="text-title">
-                    <span>Contact Me ...</span>
-                    <Typing.Delay ms={99999999} />
-                  </div>
-                </Typing>
+            <div className="row justify-content-center">
+              <div class="row w-100">
+                <div class="col w-100 d-flex justify-content-center">
+                  <Typing speed={50} cursorClassName="cursor">
+                    <div className="text-title">
+                      <span>Contact Me ...</span>
+                      <Typing.Delay ms={99999999} />
+                    </div>
+                  </Typing>
+                </div>
               </div>
-            </div>
-            {/*<ContactForm />*/}
-            <br />
-            <div className="row">
-              <div className="col">
-                <a href="mailto:rohithcbi9343@gmail.com">
-                  <EmailIcon className="icons" />
-                  <span className="contactText">rohithcbi9343@gmail.com</span>
-                </a>
+              {/*<ContactForm />*/}
+              <div class="row w-100">
+                <div class="col offset-md-2">
+                  <a href="mailto:rohithcbi9343@gmail.com">
+                    <EmailIcon className="icons" />
+                    <span className="contactText">rohithcbi9343@gmail.com</span>
+                  </a>
+                </div>
               </div>
-            </div>
-            <br />
-            <div className="row">
-              <div className="col">
-                <a
-                  href="https://www.linkedin.com/in/rohithsp/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <LinkedInIcon className="icons" />
-                  <span className="contactText">
-                    www.linkedin.com/in/rohithsp/
-                  </span>
-                </a>
+              <br />
+              <div class="row w-100">
+                <div class="col offset-md-2">
+                  <a
+                    href="https://www.linkedin.com/in/rohithsp/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LinkedInIcon className="icons" />
+                    <span className="contactText">
+                      www.linkedin.com/in/rohithsp/
+                    </span>
+                  </a>
+                </div>
               </div>
-            </div>
-            <br />
-            <div className="row">
-              <div className="col">
-                <a
-                  href="https://www.google.com/maps/place/Tiruchirappalli"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <LocationOnIcon className="icons" />
-                  <span className="contactText">
-                    Tiruchirappalli, Tamil Nadu, India
-                  </span>
-                </a>
+              <div class="row w-100">
+                <div class="col offset-md-2">
+                  <a
+                    href="https://www.google.com/maps/place/Tiruchirappalli"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LocationOnIcon className="icons" />
+                    <span className="contactText">
+                      Tiruchirappalli, Tamil Nadu, India
+                    </span>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col"></div>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@
 
 .text-title {
   color: #d4d4d4;
-  font-size: 7vh !important;
+  font-size: 7vh;
   font-family: "Comic Sans MS";
   cursor: pointer;
 }
@@ -31,7 +31,7 @@
 
 .contactText {
   color: #7d8984;
-  margin: 0.1rem 1rem;
+  margin: 1.2rem 1rem;
   font-size: 3vh;
   transition: transform 250ms;
   display: inline-block;
@@ -43,12 +43,16 @@
 }
 
 @media (max-width: 500px) {
+  .text-title {
+    font-size: 5vh !important;
+  }
+
   .icons {
     transform: scale(1);
   }
 
   .contactText {
-    margin: 0.1rem 0.3rem;
+    margin: 0.3rem 0.2rem;
     font-size: 2vh;
   }
 }
