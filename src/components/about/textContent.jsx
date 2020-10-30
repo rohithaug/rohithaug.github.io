@@ -19,6 +19,7 @@ class TextContent extends Component {
             href="https://www.psgtech.edu/"
             rel="noopener noreferrer"
             target="_blank"
+            style={{ color: "#1d1d1d" }}
           >
             <span className="PSGCollege">PSG College of Technology</span>
           </a>{" "}

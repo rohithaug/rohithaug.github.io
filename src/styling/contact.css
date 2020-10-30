@@ -43,10 +43,6 @@
 }
 
 @media (max-width: 500px) {
-  .text {
-    font-size: 5vh !important;
-  }
-
   .icons {
     transform: scale(1);
   }

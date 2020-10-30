@@ -38,6 +38,12 @@
   transform: scale(1.05);
 }
 
+@media (max-width: 500px) {
+  .PSGCollege {
+    display: inline;
+  }
+}
+
 .rohithPic {
   max-width: 275px;
   max-height: 275px;
