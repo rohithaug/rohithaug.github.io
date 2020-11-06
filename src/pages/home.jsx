@@ -68,25 +68,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-/*
-      <div className="content">
-        <div className="container h-100">
-          <div className="row align-items-center h-100">
-            <div className="col offset-md-2">
-              <Typing cursorClassName="cursor">
-                <div className="hello">
-                  Hi there!
-                  <Typing.Delay ms={1000} /> <br />
-                  I'm Rohith,
-                  <Typing.Delay ms={1000} /> <br />
-                  Software Developer.
-                  <Typing.Delay ms={10000} />
-                </div>
-              </Typing>
-            </div>
-          </div>
-        </div>
-      </div>
-
-*/

@@ -9,7 +9,6 @@ import {
   Button,
   Typography,
 } from "@material-ui/core";
-import ImageIcon from "@material-ui/icons/Image";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
 class MoMWeek23Card extends Component {
@@ -55,16 +54,6 @@ class MoMWeek23Card extends Component {
             href="https://public.tableau.com/profile/rohithsp#!/vizhome/MakeoverMonday-2020-Week-23/MakeoverMonday-2020-Week-23"
           >
             LIVE DASHBOARD
-          </Button>
-          <Button
-            startIcon={<ImageIcon />}
-            size="medium"
-            color="primary"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/MakeoverMonday/master/week23.png"
-          >
-            IMAGE
           </Button>
         </CardActions>
       </Card>

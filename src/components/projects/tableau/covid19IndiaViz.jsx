@@ -9,8 +9,8 @@ import {
   Button,
   Typography,
 } from "@material-ui/core";
-import ImageIcon from "@material-ui/icons/Image";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 class Covid19IndiaVizCard extends Component {
   render() {
@@ -58,14 +58,14 @@ class Covid19IndiaVizCard extends Component {
             LIVE DASHBOARD
           </Button>
           <Button
-            startIcon={<ImageIcon />}
+            startIcon={<GitHubIcon />}
             size="medium"
             color="primary"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://raw.githubusercontent.com/rohithaug/India-covid-19-data/master/visualization/sample_4.jpg"
+            href="https://github.com/rohithaug/India-covid-19-data/tree/master/visualization"
           >
-            IMAGE
+            GITHUB
           </Button>
         </CardActions>
       </Card>
