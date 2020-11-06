@@ -7,9 +7,9 @@ class TextContent extends Component {
       <div>
         <div className="text-content">
           Hello! I'm Rohith, based in Tamil Nadu, India. I'm an Engineering
-          aspirant interested in the field of Software and Robotics and highly
-          passionate about math, analytics and management. A Philanthropist,
-          which I do feel the most important aspect of my life.
+          aspirant interested in the field of Software and Automation and highly
+          passionate about Math, Robotics, Analytics and Management. A
+          Philanthropist, which I do feel the most important aspect of my life.
         </div>
         <br />
         <div className="text-content">

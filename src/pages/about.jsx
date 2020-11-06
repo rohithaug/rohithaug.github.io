@@ -30,7 +30,7 @@ class About extends Component {
               <div className="col d-flex justify-content-center">
                 <img
                   src={require("../media/rohith.jpg")}
-                  alt="Rohith Profile Pic"
+                  alt="Profile Pic"
                   className="rohithPic"
                 />
               </div>
