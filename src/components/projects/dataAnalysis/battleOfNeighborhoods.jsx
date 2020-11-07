@@ -56,6 +56,7 @@ class BattleOfNeighborhoodsCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/Battle-of-Neighborhoods-Chennai"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -66,6 +67,7 @@ class BattleOfNeighborhoodsCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://nbviewer.jupyter.org/github/rohithaug/Battle-of-Neighborhoods-Chennai/blob/master/Project%20Notebook.ipynb"
+            className="projectButtons"
           >
             NOTEBOOK
           </Button>

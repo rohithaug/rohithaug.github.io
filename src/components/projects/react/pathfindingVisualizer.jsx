@@ -48,6 +48,7 @@ class PathfindingVisualizerCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/pathfinding-visualizer"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -58,6 +59,7 @@ class PathfindingVisualizerCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://rohithaug.github.io/pathfinding-visualizer/"
+            className="projectButtons"
           >
             LIVE DEMO
           </Button>

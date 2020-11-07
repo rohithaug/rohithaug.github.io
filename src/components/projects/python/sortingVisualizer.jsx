@@ -42,6 +42,7 @@ class SortingVisualizerCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/sorting-visualizer"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -52,6 +53,7 @@ class SortingVisualizerCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://youtu.be/NuB8QzFDjrQ"
+            className="projectButtons"
           >
             VIDEO
           </Button>

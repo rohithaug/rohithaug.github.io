@@ -52,6 +52,7 @@ class MoMWeek23Card extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://public.tableau.com/profile/rohithsp#!/vizhome/MakeoverMonday-2020-Week-23/MakeoverMonday-2020-Week-23"
+            className="projectButtons"
           >
             LIVE DASHBOARD
           </Button>

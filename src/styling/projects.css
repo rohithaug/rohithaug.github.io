@@ -89,3 +89,8 @@
 .col {
   margin-bottom: 4vh;
 }
+
+.projectButtons:hover {
+  color: white !important;
+  background-color: #3f51b5 !important;
+}

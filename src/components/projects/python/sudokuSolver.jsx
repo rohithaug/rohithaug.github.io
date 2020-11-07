@@ -56,6 +56,7 @@ class SudokuSolverCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/sudoku-solver"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -66,6 +67,7 @@ class SudokuSolverCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://raw.githubusercontent.com/rohithaug/sudoku-solver/master/sudoku_gui_sample.gif"
+            className="projectButtons"
           >
             VIDEO
           </Button>

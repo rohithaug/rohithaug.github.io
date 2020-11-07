@@ -52,6 +52,7 @@ class MoMWeek24Card extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://public.tableau.com/profile/rohithsp#!/vizhome/MakeoverMondayFemaleHighSchoolAthletesinDifferentSports/MakeoverMonday-2020-Week-24"
+            className="projectButtons"
           >
             LIVE DASHBOARD
           </Button>

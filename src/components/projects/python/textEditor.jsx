@@ -55,6 +55,7 @@ class TextEditorCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/text-editor"
+            className="projectButtons"
           >
             GITHUB
           </Button>

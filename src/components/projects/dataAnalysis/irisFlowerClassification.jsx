@@ -57,6 +57,7 @@ class IrisFlowerClassificationCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/iris-flower-classification"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -67,6 +68,7 @@ class IrisFlowerClassificationCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://nbviewer.jupyter.org/github/rohithaug/iris-flower-classification/blob/master/iris_classification.ipynb"
+            className="projectButtons"
           >
             NOTEBOOK
           </Button>

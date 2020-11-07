@@ -56,6 +56,7 @@ class Covid19IndiaDataCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rohithaug/India-covid-19-data"
+            className="projectButtons"
           >
             GITHUB
           </Button>
@@ -66,6 +67,7 @@ class Covid19IndiaDataCard extends Component {
             rel="noopener noreferrer"
             target="_blank"
             href="https://public.tableau.com/profile/rohithsp#!/vizhome/Indiacovid-19data/covid19data"
+            className="projectButtons"
           >
             LIVE DASHBOARD
           </Button>
