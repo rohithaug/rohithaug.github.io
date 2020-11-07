@@ -13,8 +13,8 @@ class Contact extends Component {
           <div className="container h-100">
             <br /> <br /> <br />
             <div className="row justify-content-center">
-              <div class="row w-100">
-                <div class="col w-100 d-flex justify-content-center">
+              <div className="row w-100">
+                <div className="col w-100 d-flex justify-content-center">
                   <Typing speed={50} cursorClassName="cursor">
                     <div className="text-title">
                       <span>Contact Me ...</span>
@@ -24,8 +24,8 @@ class Contact extends Component {
                 </div>
               </div>
               {/*<ContactForm />*/}
-              <div class="row w-100">
-                <div class="col offset-md-2">
+              <div className="row w-100">
+                <div className="col offset-md-2">
                   <a href="mailto:rohithcbi9343@gmail.com">
                     <EmailIcon className="icons" />
                     <span className="contactText">rohithcbi9343@gmail.com</span>
@@ -33,8 +33,8 @@ class Contact extends Component {
                 </div>
               </div>
               <br />
-              <div class="row w-100">
-                <div class="col offset-md-2">
+              <div className="row w-100">
+                <div className="col offset-md-2">
                   <a
                     href="https://www.linkedin.com/in/rohithsp/"
                     rel="noopener noreferrer"
@@ -47,8 +47,8 @@ class Contact extends Component {
                   </a>
                 </div>
               </div>
-              <div class="row w-100">
-                <div class="col offset-md-2">
+              <div className="row w-100">
+                <div className="col offset-md-2">
                   <a
                     href="https://www.google.com/maps/place/Tiruchirappalli"
                     rel="noopener noreferrer"

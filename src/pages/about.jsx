@@ -22,12 +22,12 @@ class About extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col">
+              <div className="col-md-6">
                 <TextContent />
                 <br />
                 <Technologies />
               </div>
-              <div className="col d-flex justify-content-center">
+              <div className="col-md-6 d-flex justify-content-center">
                 <img
                   src={require("../media/rohith.jpg")}
                   alt="Profile Pic"

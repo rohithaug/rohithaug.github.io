@@ -48,10 +48,10 @@
   max-width: 275px;
   max-height: 275px;
   border-radius: 5%;
-  box-shadow: 12px 12px 0 0 #12efcd;
+  box-shadow: 12px 12px 0 0 #12efcec2;
   transition: box-shadow ease-in 150ms;
 }
 
 .rohithPic:hover {
-  box-shadow: 8px 8px 0 0 #12efcd;
+  box-shadow: 8px 8px 0 0 #12efcec2;
 }

@@ -10,32 +10,30 @@ class Technologies extends Component {
           A few technologies I've been working with recenly:
         </div>
         <br />
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <div className="text-content">
-                <Typing speed={150} cursorClassName="cursor-content">
-                  <ul>
-                    <li>Python</li>
-                    <Typing.Delay ms={750} />
-                    <li>Tableau</li>
-                    <li>SQL</li>
-                    <Typing.Delay ms={150} />
-                  </ul>
-                </Typing>
-              </div>
+        <div className="row">
+          <div className="col col-padding">
+            <div className="text-content">
+              <Typing speed={150} cursorClassName="cursor-content">
+                <ul>
+                  <li>Python</li>
+                  <Typing.Delay ms={750} />
+                  <li>Tableau</li>
+                  <li>SQL</li>
+                  <Typing.Delay ms={150} />
+                </ul>
+              </Typing>
             </div>
-            <div className="col">
-              <div className="text-content">
-                <Typing speed={150} cursorClassName="cursor-content">
-                  <ul>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <Typing.Delay ms={450} />
-                    <li>Java</li>
-                  </ul>
-                </Typing>
-              </div>
+          </div>
+          <div className="col col-padding">
+            <div className="text-content">
+              <Typing speed={150} cursorClassName="cursor-content">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <Typing.Delay ms={450} />
+                  <li>Java</li>
+                </ul>
+              </Typing>
             </div>
           </div>
         </div>
