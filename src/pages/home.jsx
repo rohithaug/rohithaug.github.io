@@ -6,8 +6,9 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faTwitter,
+  //faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class Home extends Component {
   render() {
@@ -51,6 +52,7 @@ class Home extends Component {
               >
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
               </a>
+              {/*
               <a
                 href="https://twitter.com/rohithaug"
                 rel="noopener noreferrer"
@@ -58,6 +60,13 @@ class Home extends Component {
                 className="twitter social"
               >
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+              */}
+              <a
+                href="mailto:rohithcbi9343@gmail.com"
+                className="envelope social"
+              >
+                <FontAwesomeIcon icon={faEnvelope} size="2x" />
               </a>
             </div>
           </div>
