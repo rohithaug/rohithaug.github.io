@@ -52,6 +52,7 @@ class Navbar extends Component {
                 Resume
               </Link>
             </li>
+            {/*
             <li className="nav-item">
               <Link
                 to="/contact"
@@ -62,6 +63,7 @@ class Navbar extends Component {
                 Contact
               </Link>
             </li>
+            */}
           </ul>
         </div>
       </nav>

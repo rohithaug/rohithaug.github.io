@@ -17,7 +17,7 @@ class Contact extends Component {
                 <div className="col w-100 d-flex justify-content-center">
                   <Typing speed={50} cursorClassName="cursor">
                     <div className="text-title">
-                      <span>Contact Me ...</span>
+                      <span>Get in Touch ...</span>
                       <Typing.Delay ms={99999999} />
                     </div>
                   </Typing>
