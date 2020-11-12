@@ -13,7 +13,16 @@ class TextContent extends Component {
         </div>
         <br />
         <div className="text-content">
-          I recently completed my Bachelors Degree in Robotics and Automation
+          I am currently working as an Analyst Programmer at{" "}
+          <a
+            href="https://www.ramco.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+            style={{ color: "#1d1d1d" }}
+          >
+            <span className="aboutTextLinks">Ramco Systems</span>
+          </a>
+          , Chennai. I completed my Bachelors Degree in Robotics and Automation
           from{" "}
           <a
             href="https://www.psgtech.edu/"
@@ -21,11 +30,9 @@ class TextContent extends Component {
             target="_blank"
             style={{ color: "#1d1d1d" }}
           >
-            <span className="PSGCollege">PSG College of Technology</span>
-          </a>{" "}
-          and am willing to work in a learning environment with full integrity
-          and zest to enhance my skills and meet the company goals and
-          objectives.
+            <span className="aboutTextLinks">PSG College of Technology</span>
+          </a>
+          , Coimbatore.
         </div>
       </div>
     );

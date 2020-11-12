@@ -25,7 +25,7 @@
   line-height: 1.6;
 }
 
-.PSGCollege {
+.aboutTextLinks {
   color: #12efcd;
   transition: transform 250ms;
   display: inline-block;
@@ -33,13 +33,13 @@
   margin-right: 2px;
 }
 
-.PSGCollege:hover {
+.aboutTextLinks:hover {
   color: #12efcd;
   transform: scale(1.05);
 }
 
-@media (max-width: 500px) {
-  .PSGCollege {
+@media (max-width: 1000px) {
+  .aboutTextLinks {
     display: inline;
   }
 }
