@@ -1,5 +1,20 @@
+body {
+  background-color: #080e17 !important;
+}
+
 .content {
-  background-color: #1d1d1d;
+  background-color: #080e17 !important;
+  padding-top: 60px;
   height: 100vh;
-  color: white;
+}
+
+.text {
+  color: #e7e7e7;
+  font-size: 8vh;
+  font-family: "Comic Sans MS";
+  cursor: pointer;
+}
+
+.cursor {
+  color: orange !important;
 }

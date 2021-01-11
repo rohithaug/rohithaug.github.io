@@ -1,28 +1,8 @@
-.content {
-  background-color: #1d1d1d;
-  height: 100vh;
-  color: white;
-}
-
-.text {
-  color: #d4d4d4;
-  font-size: 8vh;
-  font-family: "Comic Sans MS";
-  cursor: pointer;
-}
-
-.cursor-title {
-  color: orange !important;
-}
-
-.cursor-content {
-  color: #12efcd !important;
-}
-
 .text-content {
-  color: #d4d4d4;
+  color: #e0e0e0;
   font-family: "Comic Sans MS";
-  line-height: 1.6;
+  font-size: 1.1em;
+  line-height: 1.5;
 }
 
 .aboutTextLinks {

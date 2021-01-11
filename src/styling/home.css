@@ -1,22 +1,5 @@
-.content {
-  background-color: #1d1d1d;
-  height: 100vh;
-  color: white;
-}
-
-.text {
-  color: #d4d4d4;
-  font-size: 8vh;
-  font-family: "Comic Sans MS";
-  cursor: pointer;
-}
-
-.cursor {
-  color: orange !important;
-}
-
 a.social {
-  color: #7d8984;
+  color: #9fa5a2;
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;

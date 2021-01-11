@@ -10,10 +10,9 @@ class About extends Component {
       <div>
         <div className="content">
           <div className="container h-100">
-            <br /> <br /> <br />
             <div className="row">
               <div className="col">
-                <Typing speed={100} cursorClassName="cursor-title">
+                <Typing speed={100} cursorClassName="cursor">
                   <div className="text">
                     <span>About Me !</span>
                     <Typing.Delay ms={99999999} />

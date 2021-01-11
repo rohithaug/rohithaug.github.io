@@ -25,7 +25,7 @@ class Projects extends Component {
       <div>
         <div className="content">
           <div className="container h-100">
-            <br /> <br /> <br />
+            <br />
             <NavTabItems hashPosition={hashPosition} currentTab={currentTab} />
             <br />
             <NavTabCards hashPosition={hashPosition} currentTab={currentTab} />

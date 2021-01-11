@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
@@ -14,10 +14,10 @@ import PageNotFound from "./pages/pageNotFound";
 
 function App() {
   return (
-    <div className="content">
-      <Helmet>
+    <div>
+      {/* <Helmet>
         <style>{"body { background-color: #1d1d1d; }"}</style>
-      </Helmet>
+      </Helmet> */}
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

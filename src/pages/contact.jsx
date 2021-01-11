@@ -11,7 +11,6 @@ class Contact extends Component {
       <div>
         <div className="content">
           <div className="container h-100">
-            <br /> <br /> <br />
             <div className="row justify-content-center">
               <div className="row w-100">
                 <div className="col w-100 d-flex justify-content-center">

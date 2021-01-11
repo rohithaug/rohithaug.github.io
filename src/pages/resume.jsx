@@ -16,7 +16,7 @@ class Resume extends Component {
       <div>
         <div className="content">
           <div className="container h-100">
-            <br /> <br /> <br />
+            <br />
             <div className="row">
               <div className="col">
                 <AutoSizer disableHeight>

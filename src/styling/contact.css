@@ -1,18 +1,8 @@
-.content {
-  background-color: #1d1d1d;
-  height: 100vh;
-  color: white;
-}
-
 .text-title {
   color: #d4d4d4;
   font-size: 7vh;
   font-family: "Comic Sans MS";
   cursor: pointer;
-}
-
-.cursor {
-  color: orange !important;
 }
 
 .icons {
