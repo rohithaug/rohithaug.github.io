@@ -32,25 +32,6 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!-- SPA for GitHub Pages -->
-    <script type="text/javascript">
-      (function (loc) {
-        if (loc.search[1] === "/") {
-          var decoded = loc.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            loc.pathname.slice(0, -1) + decoded + loc.hash
-          );
-        }
-      })(window.location);
-    </script>
   </head>
   
   <body>

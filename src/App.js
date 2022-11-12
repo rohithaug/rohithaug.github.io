@@ -1,6 +1,6 @@
 // IMPORT LIBRARIES
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 // IMPORT CONTAINERS
 import Navbar from "./containers/navbar";
@@ -14,7 +14,7 @@ import PageNotFound from "./pages/pageNotFound";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -23,7 +23,7 @@ const App = () => {
         <Route exact path="/contact" component={Contact} />
         <Route component={PageNotFound} />
       </Switch>          
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
