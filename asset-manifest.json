@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a6128271.css",
-    "main.js": "/static/js/main.243e8268.js",
+    "main.js": "/static/js/main.f9ab8feb.js",
     "static/media/rohith.jpg": "/static/media/rohith.e2b4ed091a39e1b7ee04.jpg",
     "index.html": "/index.html",
     "main.a6128271.css.map": "/static/css/main.a6128271.css.map",
-    "main.243e8268.js.map": "/static/js/main.243e8268.js.map"
+    "main.f9ab8feb.js.map": "/static/js/main.f9ab8feb.js.map"
   },
   "entrypoints": [
     "static/css/main.a6128271.css",
-    "static/js/main.243e8268.js"
+    "static/js/main.f9ab8feb.js"
   ]
 }
