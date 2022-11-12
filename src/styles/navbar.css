@@ -91,16 +91,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #ffffff;
+    border-top: 1pxsolid #FFFFFF;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: #FFFFFF;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -108,7 +108,7 @@
   }
 
   .nav-item .active {
-    color: #ffdd40;
+    color: #333333;
     border: none;
   }
 
@@ -123,9 +123,14 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 30%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #333333;
+  }
+
+  .nav-icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
   }
 }
