@@ -1,1 +1,0 @@
-# Rohith S P | Personal Website
