@@ -1,71 +1,75 @@
-import React, { Component } from "react";
-import "../styling/contact.css";
-import Typing from "react-typing-animation";
-import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
+// IMPORT LIBRARIES
+import React from "react";
 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-        <div className="content">
-          <div className="container h-100">
-            <div className="row justify-content-center">
-              <div className="row w-100">
-                <div className="col w-100 d-flex justify-content-center">
-                  <Typing speed={50} cursorClassName="cursor">
-                    <div className="text-title">
-                      <span>Get in Touch ...</span>
-                      <Typing.Delay ms={99999999} />
-                    </div>
-                  </Typing>
-                </div>
-              </div>
-              {/*<ContactForm />*/}
-              <div className="row w-100">
-                <div className="col offset-md-2">
-                  <a href="mailto:rohithcbi9343@gmail.com">
-                    <EmailIcon className="icons" />
-                    <span className="contactText">rohithcbi9343@gmail.com</span>
-                  </a>
-                </div>
-              </div>
-              <br />
-              <div className="row w-100">
-                <div className="col offset-md-2">
-                  <a
-                    href="https://www.linkedin.com/in/rohithsp/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <LinkedInIcon className="icons" />
-                    <span className="contactText">
-                      www.linkedin.com/in/rohithsp/
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="row w-100">
-                <div className="col offset-md-2">
-                  <a
-                    href="https://www.google.com/maps/place/Tiruchirappalli"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <LocationOnIcon className="icons" />
-                    <span className="contactText">
-                      Tiruchirappalli, Tamil Nadu, India
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+// IMPORT STYLES
+import "../styles/contact.css";
+
+// IMPORT ICONS
+import LinkedinIcon from "../assets/icons/linkedin";
+import GithubIcon from "../assets/icons/github";
+import InstagramIcon from "../assets/icons/instagram";
+
+const Contact = () => {
+  return (
+    <div className="contact-container">
+
+      <div className="contact-intro">
+        <p className="contact-details">Feel free to get in touch. Drop me a line:</p>
+        <div className="contact-emails">
+          <a
+              href="mailto:rsp223@ucsd.edu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-email"
+          >
+            rsp223@ucsd.edu
+          </a>
+          <a
+              href="mailto:rohithaug@gmail.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-email"
+          >
+            rohithaug@gmail.com
+          </a>
         </div>
       </div>
-    );
-  }
+
+      <div className="contact-icons-wrapper">
+        <ul>
+          <li>
+            <a 
+              href="https://www.linkedin.com/in/rohithsp" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <LinkedinIcon className="contact-icons linkedin"/>
+            </a>
+          </li>
+
+          <li>
+            <a 
+              href="https://github.com/rohithaug" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <GithubIcon className="contact-icons github"/>
+            </a>
+          </li>
+
+          <li>
+            <a 
+              href="https://www.instagram.com/_rohith_s_p" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <InstagramIcon className="contact-icons instagram"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 export default Contact;
