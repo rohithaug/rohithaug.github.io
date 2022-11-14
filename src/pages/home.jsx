@@ -5,7 +5,7 @@ import React from "react";
 import "../styles/home.css";
 
 // IMPORT IMAGES
-import rohithImage from'../assets/images/rohith.jpg';
+import rohithImage from'../assets/images/rohith.jpeg';
 
 // IMPORT ICONS
 import LinkedinIcon from "../assets/icons/linkedin";
