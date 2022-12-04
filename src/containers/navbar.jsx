@@ -48,13 +48,14 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a
-                href="/Rohith_Resume.pdf"
+              <NavLink
+                exact
+                to="/resume"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
                 Resume
-              </a>
+              </NavLink>
             </li>
 
             <li className="nav-item">
