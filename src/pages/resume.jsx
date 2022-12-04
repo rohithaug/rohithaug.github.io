@@ -47,7 +47,7 @@ const Resume = () => {
         </a>
       </div> 
 
-      <div className="resume-icons-wrapper">
+      <div className="icons-section">
         <ul>
           <li>
             <a 

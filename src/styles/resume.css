@@ -14,7 +14,7 @@
     padding: 1rem;
 }
 
-.resume-download {
+.download-section .resume-download {
     color: #666666;
     border: solid 1px #333333;
     padding: 1rem;
@@ -22,34 +22,36 @@
     text-decoration: none;
 }
 
-.resume-download:hover {
+.download-section .resume-download:hover {
     color: #ffffff;
     border-color: #cb0909;
     background-color: #ce4646;
 }
 
-.resume-icons-wrapper {
+.icons-section {
     display: flex;
     justify-content: center;
+
+    margin-top: 2vh;
 }
 
-.resume-icons-wrapper li {
+.icons-section li {
     padding: 0.25vw;
     display: inline;
 }
 
-.resume-icons-wrapper .resume-icons {
+.icons-section .resume-icons {
     fill: #888888;
     height: calc(1.5rem + 1.5vw);
     width: calc(1.5rem + 1.5vw);
     cursor: pointer;
 }
 
-.resume-icons-wrapper .linkedin:hover {
+.icons-section .linkedin:hover {
     fill: #0075B5;
 }
 
-.resume-icons-wrapper .github:hover {
+.icons-section .github:hover {
     fill: #24292F;
 }
 
