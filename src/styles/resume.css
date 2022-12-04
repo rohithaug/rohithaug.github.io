@@ -136,21 +136,30 @@
 }
 
 .vertical-scrollable-timeline li.active .pointer {
-    background-color: #444444;
+    background-color: #cb0909;
 }
 
 .vertical-scrollable-timeline li.active .pointer::before {
-    background-color: #444444;
+    background-color: #ce4646;
 }
 
-.timeline-section .heading {
+.heading-section {
     margin-left: 18vw;
+    display: flex;
+}
+
+.heading-section .heading {
     /* text-align: center; */
     margin-bottom: 5vh;
     margin-top: 5vh;
     font-size: calc(1rem + 1.5vh);
     font-weight: 600;
-    color: #444444;
+    color: #555555;
+}
+
+.heading-section .logo {
+    height: calc(2.5rem + 3vh);
+    margin: 2vh 1vw 0vh 0vw;
 }
 
 .resume-item .title {

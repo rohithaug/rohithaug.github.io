@@ -5,6 +5,8 @@ import React from "react";
 import "../styles/resume.css";
 
 // IMPORT IMAGES
+import studyingLogo from'../assets/images/studying.png';
+import workingLogo from'../assets/images/working.png';
 import ucsdLogo from'../assets/images/ucsd-logo.png';
 import psgLogo from'../assets/images/psg-logo.png';
 import ramcoLogo from'../assets/images/ramco-logo.png';
@@ -72,7 +74,14 @@ const Resume = () => {
       </div>
 
       <div className="timeline-section resume-education">
-        <div className="heading">EDUCATION</div>
+        <div className="heading-section">
+          <img 
+            src={studyingLogo} 
+            className="logo studying"
+            alt=""
+          ></img>
+          <div className="heading">EDUCATION</div>
+        </div>
 
         <div className="timeline-container">
           <ul className="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
@@ -145,9 +154,9 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p>CGPA: 9.91/10.0</p>
-                <p>Best Outgoing Student and Gold Medallist - Batch of 2020</p>
-                <p>Undergraduate Student Researcher at the R&D Center (Advisors:{" "}
+                <p><b>CGPA</b>: 9.91/10.0</p>
+                <p>• Best Outgoing Student and Gold Medallist - Batch of 2020</p>
+                <p>• Student Researcher at the R&D Center (Advisors:{" "}
                     <a
                       href="https://www.psgtech.edu/profileurl.php?id=C513" 
                       target="_blank" 
@@ -175,7 +184,14 @@ const Resume = () => {
       </div>
 
       <div className="timeline-section resume-experience">
-        <div className="heading">EXPERIENCE</div>
+        <div className="heading-section">
+          <img 
+            src={workingLogo} 
+            className="logo studying"
+            alt=""
+          ></img>
+          <div className="heading">EXPERIENCE</div>
+        </div>
 
         <div className="timeline-container">
           <ul className="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
@@ -246,7 +262,17 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p>Worked on research related to Object Detection and Pose Estimation, Trajectory Generation Scheme Model and Algorithm, and Training Game Model for Human-Robot Interaction under the guidance of Dr. B. Vinod, Head of the Department, Robotics and Automation Engineering.</p>
+                <p>• Research on topics related to Object Detection and Pose Estimation, Trajectory Generation Scheme Model and Algorithm, and Training Game Model for Human-Robot Interaction.</p>
+                <p>• <b>Advisor</b>:{" "}</p>
+                  <a
+                    href="https://www.psgtech.edu/profileurl.php?id=C513" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="resume-links"
+                  >
+                    Dr. B. Vinod, Head of the Department, Robotics and Automation Engineering                  
+                  </a>
+                  .
               </div>
               <div className="pointer"></div>
             </li>
