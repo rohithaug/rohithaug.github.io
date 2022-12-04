@@ -7,7 +7,7 @@ import "../styles/contact.css";
 // IMPORT ICONS
 import LinkedinIcon from "../assets/icons/linkedin";
 import GithubIcon from "../assets/icons/github";
-import InstagramIcon from "../assets/icons/instagram";
+// import InstagramIcon from "../assets/icons/instagram";
 
 const Contact = () => {
   return (
@@ -57,7 +57,7 @@ const Contact = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a 
               href="https://www.instagram.com/_rohith_s_p" 
               target="_blank" 
@@ -65,7 +65,7 @@ const Contact = () => {
             >
               <InstagramIcon className="contact-icons instagram"/>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
