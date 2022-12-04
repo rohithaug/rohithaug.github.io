@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7ccfcd6.css",
-    "main.js": "/static/js/main.72e770e4.js",
+    "main.css": "/static/css/main.ac98fde7.css",
+    "main.js": "/static/js/main.e615f928.js",
     "static/media/rohith.jpeg": "/static/media/rohith.0993fe3d811b8fc1d8e8.jpeg",
+    "static/media/ucsd-logo.png": "/static/media/ucsd-logo.8ff136e6e515751cbce0.png",
+    "static/media/psg-logo.png": "/static/media/psg-logo.91e77536c98ac2d70b22.png",
+    "static/media/ramco-logo.png": "/static/media/ramco-logo.6db34c1257dfcd95baaf.png",
     "index.html": "/index.html",
-    "main.b7ccfcd6.css.map": "/static/css/main.b7ccfcd6.css.map",
-    "main.72e770e4.js.map": "/static/js/main.72e770e4.js.map"
+    "main.ac98fde7.css.map": "/static/css/main.ac98fde7.css.map",
+    "main.e615f928.js.map": "/static/js/main.e615f928.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7ccfcd6.css",
-    "static/js/main.72e770e4.js"
+    "static/css/main.ac98fde7.css",
+    "static/js/main.e615f928.js"
   ]
 }
