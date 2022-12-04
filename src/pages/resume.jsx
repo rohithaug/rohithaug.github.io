@@ -262,8 +262,8 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p>• Research on topics related to Object Detection and Pose Estimation, Trajectory Generation Scheme Model and Algorithm, and Training Game Model for Human-Robot Interaction.</p>
-                <p>• <b>Advisor</b>:{" "}</p>
+                <p>• Researched on topics related to Object Detection and Pose Estimation, Trajectory Generation Scheme Model and Algorithm, and Training Game Model for Human-Robot Interaction.</p>
+                <p>• <b>Advisor</b>:{" "}
                   <a
                     href="https://www.psgtech.edu/profileurl.php?id=C513" 
                     target="_blank" 
@@ -273,6 +273,7 @@ const Resume = () => {
                     Dr. B. Vinod, Head of the Department, Robotics and Automation Engineering                  
                   </a>
                   .
+                </p>
               </div>
               <div className="pointer"></div>
             </li>
