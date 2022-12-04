@@ -10,8 +10,8 @@ import rohithImage from'../assets/images/rohith.jpeg';
 // IMPORT ICONS
 import LinkedinIcon from "../assets/icons/linkedin";
 import GithubIcon from "../assets/icons/github";
-import InstagramIcon from "../assets/icons/instagram";
 import EmailIcon from "../assets/icons/email";
+// import InstagramIcon from "../assets/icons/instagram";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <LinkedinIcon className="home-icons"/>
+              <LinkedinIcon className="home-icons linkedin"/>
             </a>
           </li>
 
@@ -46,19 +46,19 @@ const Home = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <GithubIcon className="home-icons"/>
+              <GithubIcon className="home-icons github"/>
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a 
               href="https://www.instagram.com/_rohith_s_p" 
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <InstagramIcon className="home-icons"/>
+              <InstagramIcon className="home-icons instagram"/>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a 
@@ -66,7 +66,7 @@ const Home = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <EmailIcon className="home-icons"/>
+              <EmailIcon className="home-icons email"/>
             </a>
           </li>
         </ul>

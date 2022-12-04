@@ -27,16 +27,16 @@
 }
 
 .home-name {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1rem + 1vh);
     margin-bottom: 1vh;
 }
 
 .home-university {
-    font-size: calc(0.5rem + 0.5vw);
+    font-size: calc(0.5rem + 0.75vh);
 }
 
 .home-address {
-    font-size: calc(0.3rem + 0.5vw);
+    font-size: calc(0.4rem + 0.5vh);
 }
 
 .home-icons-wrapper li {
@@ -45,12 +45,28 @@
     margin-bottom: 1vh;
 }
 
-.home-icons {
+.home-icons-wrapper .home-icons {
     fill: #888888;
-    height: calc(1rem + 0.5vw);
-    width: calc(1rem + 0.5vw);
+    height: calc(1rem + 0.75vw);
+    width: calc(1rem + 0.75vw);
 }
 
-.home-icons:hover {
+.home-icons-wrapper .home-icons:hover {
     fill: #333333;
+}
+
+.home-icons-wrapper .linkedin:hover {
+    fill: #0075B5;
+}
+
+.home-icons-wrapper .github:hover {
+    fill: #24292F;
+}
+
+.home-icons-wrapper .instagram:hover {
+    fill: #FB3958;
+}
+
+.home-icons-wrapper .email:hover {
+    fill: #FB3958;
 }
