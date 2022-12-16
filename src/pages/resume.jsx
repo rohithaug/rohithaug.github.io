@@ -120,6 +120,11 @@ const Resume = () => {
                 className="resume-logo ucsd-logo"
                 alt=""
               ></img>
+
+              <div className="content">
+                <p><b>CGPA</b>: 4.0/4.0</p>
+              </div>
+              
               <div className="pointer"></div>
             </li>
 
@@ -263,7 +268,7 @@ const Resume = () => {
               ></img>
               <div className="content">
                 <p>• Researched on topics related to Object Detection and Pose Estimation, Trajectory Generation Scheme Model and Algorithm, and Training Game Model for Human-Robot Interaction.</p>
-                <p>• <b>Advisor</b>:{" "}
+                <p><b>Advisor</b>:{" "}
                   <a
                     href="https://www.psgtech.edu/profileurl.php?id=C513" 
                     target="_blank" 
