@@ -9,23 +9,28 @@ const About = () => {
     <div className="about-container">
       <div className="about-intro">
         <p className="about-details">
-          Hi there! I am a computer science and engineering aspirant interested in the field of Software Development, AI & ML, 
-          and Automation and highly passionate about Math, Analytics and Management.
+          As a computer science and engineering aspirant, I am deeply interested in the field of software development, 
+          AI, and machine learning. My passion for math, analytics, and management led me to pursue an undergraduate degree 
+          in Robotics and Automation, where I developed a keen interest in building software and machine learning for various 
+          applications. From robots and industrial software to autonomous cars, I quickly realized the vast potential of software 
+          and ML in various industries.
         </p>
         <p className="about-details">
-          Having done my undergrad in Robotics and Automation, I developed a keen interest on building softwares and Machine Learning 
-          for various applications, including Robots, Industrial Softwares, Autonomous Cars and understood that the application 
-          for software and ML is wide to be applied in various industries. After my undergrad, I worked for 2 years as an 
-          Analyst Programmer in the New Initiatives team of Ramco Systems, where I got the opportunity to work with the 
-          leadership team and develop interesting and fast paced products that directly impact the customers and various internal teams. 
-          I had the opportunity to build a full stack system from scratch with guidance from the stakeholders, which was released 
-          and is currently in live with 50+ customers. Most of my work were in Full Stack Development, Integration with JIRA, 
-          Distributed Systems, Machine Learning and Deployment Automation.
+          After completing my undergraduate studies, I spent two years working as an Analyst Programmer in the 
+          New Initiatives team at Ramco Systems. This role gave me the opportunity to work closely with the 
+          leadership team and develop interesting, fast-paced products that had a direct impact on customers 
+          and internal teams. One of my most notable achievements in this role was building a full stack system 
+          from scratch with guidance from stakeholders, which was eventually released and is currently being 
+          used by over 60 customers.
         </p>
         <p className="about-details">
-          I'm currently looking for an Internship Role for Summer 2023. I believe that with my general problem solving and math interest 
-          and fundamental knowledge of computer science, I would be able to adapt and work on any projects that suits my interest and 
-          background and the goal and corporate mission of the company.
+          I specialize in full stack development, integration with JIRA, distributed systems, machine learning, 
+          and deployment automation. My technical skills are complemented by my ability to think creatively, 
+          analyze problems, and communicate effectively. I am currently seeking an internship opportunity 
+          for Summer 2023, and I am confident that my general problem-solving skills, math background, 
+          and fundamental knowledge of computer science will allow me to adapt and excel in any project 
+          that aligns with my interests and background. With my skills and passion, I am excited to make 
+          a positive impact in any organization and work towards achieving their goals and corporate mission.
         </p>
 
         <hr />
