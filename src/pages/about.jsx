@@ -24,9 +24,10 @@ const About = () => {
           used by over 60 customers.
         </p>
         <p className="about-details">
-          I specialize in full stack development, integration with JIRA, distributed systems, machine learning, 
-          and deployment automation. My technical skills are complemented by my ability to think creatively, 
-          analyze problems, and communicate effectively. I am currently seeking an internship opportunity 
+          I specialize in full stack development and machine learning. My technical skills are complemented 
+          by my ability to think creatively, analyze problems, and communicate effectively. Currently, I am 
+          pursuing a Master of Science in Computer Science from the University of California San Diego, with 
+          a focus in software engineering and artificial intelligence. I am seeking an internship opportunity 
           for Summer 2023, and I am confident that my general problem-solving skills, math background, 
           and fundamental knowledge of computer science will allow me to adapt and excel in any project 
           that aligns with my interests and background. With my skills and passion, I am excited to make 
