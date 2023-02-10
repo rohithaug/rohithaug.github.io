@@ -11,9 +11,8 @@ import ucsdLogo from'../assets/images/ucsd-logo.png';
 import psgLogo from'../assets/images/psg-logo.png';
 import ramcoLogo from'../assets/images/ramco-logo.png';
 
-// IMPORT ICONS
-import LinkedinIcon from "../assets/icons/linkedin";
-import GithubIcon from "../assets/icons/github";
+// IMPORT CONTAINERS
+import ResumeIcons from "../containers/resume/icons";
 
 const Resume = () => {
   // useEffect(() => {
@@ -50,27 +49,7 @@ const Resume = () => {
       </div> 
 
       <div className="icons-section">
-        <ul>
-          <li>
-            <a 
-              href="https://www.linkedin.com/in/rohithsp" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <LinkedinIcon className="resume-icons linkedin"/>
-            </a>
-          </li>
-
-          <li>
-            <a 
-              href="https://github.com/rohithaug" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <GithubIcon className="resume-icons github"/>
-            </a>
-          </li>
-        </ul>
+        <ResumeIcons />
       </div>
 
       <div className="timeline-section resume-education">

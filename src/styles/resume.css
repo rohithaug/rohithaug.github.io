@@ -55,6 +55,10 @@
     fill: #24292F;
 }
 
+.icons-section .google-scholar:hover {
+    fill: #4285f4;
+}
+
 .timeline-container {
     display: flex;
     justify-content: center;

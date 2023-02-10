@@ -70,3 +70,7 @@
 .home-icons-wrapper .email:hover {
     fill: #D44638;
 }
+
+.home-icons-wrapper .google-scholar:hover {
+    fill: #4285f4;
+}
