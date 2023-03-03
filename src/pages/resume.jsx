@@ -41,7 +41,7 @@ const Resume = () => {
     <div className="resume-container">
       <div className="download-section">
         <a                 
-          href="/Rohith_Resume.pdf"
+          href="/Rohith_Resume.pdf#zoom=120"
           className="resume-download"
         >
           Download Resume
