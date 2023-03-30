@@ -223,7 +223,7 @@ const Resume = () => {
                     </a>
                      {" "}and{" "}
                      <a
-                      href="https://www.psgtech.edu/facgen.php?id=C6062" 
+                      href="https://www.psgtech.edu/profileurl.php?id=C6062" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="resume-links"
