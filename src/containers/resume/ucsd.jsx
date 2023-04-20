@@ -36,28 +36,30 @@ const Ucsd = () => {
             <p><b>CGPA</b>: 4.0/4.0</p>
             <p><b>Courses:</b></p>
             <p><b>&ensp;• Spring 2023 Quarter [April 2023 to Present]</b></p>
-            <p>&emsp; 1. CSE 251B - Deep Learning by Professor {" "} 
-                <ResumeLink 
-                    name="Rose Yu" 
-                    url="https://roseyu.com/" 
-                />
-            </p>
-            <p>&emsp; 2. CSE 256 - Statistical Natural Language Processing by Professor {" "} 
+            <p>&emsp; 1. CSE 256 - Statistical Natural Language Processing by Professor {" "} 
                 <ResumeLink 
                     name="Ndapa Nakashole" 
                     url="https://ndapa.us/" 
                 />
             </p>
-            {/* <p>&emsp; 3. CSE 257 - Search and Optimization by Professor {" "} 
-                <a
-                    href="https://scungao.github.io/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="resume-links"
-                >
-                Sicun Gao
-                </a>
-            </p> */}
+            <p>&emsp; 2. CSE 290I - Training Generative Models by Professor {" "} 
+                <ResumeLink 
+                    name="Taylor Berg-Kirkpatrick" 
+                    url="https://cseweb.ucsd.edu/~tberg/" 
+                />
+            </p>
+            <p>&emsp; 2. CSE 293 - Project Work under Professor {" "} 
+                <ResumeLink 
+                    name="Julian McAuley" 
+                    url="https://cseweb.ucsd.edu/~jmcauley/" 
+                />
+            </p>
+            <p>&emsp; 2. CSE 291F - Unsupervised Learning by Professor {" "} 
+                <ResumeLink 
+                    name="Sanjoy Dasgupta" 
+                    url="https://cseweb.ucsd.edu/~dasgupta/" 
+                />
+            </p>
 
             <p><b>&ensp;• Winter 2023 Quarter [January 2023 to March 2023]</b></p>
             <p>&emsp; 1. CSE 202 - Algorithm Design and Analysis by Professor {" "} 
