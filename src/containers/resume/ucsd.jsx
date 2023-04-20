@@ -48,13 +48,13 @@ const Ucsd = () => {
                     url="https://cseweb.ucsd.edu/~tberg/" 
                 />
             </p>
-            <p>&emsp; 2. CSE 293 - Project Work under Professor {" "} 
+            <p>&emsp; 3. CSE 293 - Project Work under Professor {" "} 
                 <ResumeLink 
                     name="Julian McAuley" 
                     url="https://cseweb.ucsd.edu/~jmcauley/" 
                 />
             </p>
-            <p>&emsp; 2. CSE 291F - Unsupervised Learning by Professor {" "} 
+            <p>&emsp; 4. CSE 291F - Unsupervised Learning by Professor {" "} 
                 <ResumeLink 
                     name="Sanjoy Dasgupta" 
                     url="https://cseweb.ucsd.edu/~dasgupta/" 
