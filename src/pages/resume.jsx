@@ -173,7 +173,7 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p><b>Skills</b>: Full Stack Development · Data Science · API Integration · Distributed Systems · Deployment Automation</p>
+                <p><b>Skills</b>: Full Stack Development · API Integration · Distributed Systems · Deployment Automation · Data Science</p>
                 <p>• Led the development of a customer support system for ticket creation, incorporating information transfer from the core product to JIRA to streamline fix generation for support teams. The system featured a client-facing application built with React and a Node.JS backend, which communicated with the Ramco Software, Identity Server, and a centralized Node.JS server connected to JIRA, a documentation tool (XWiki), and MongoDB.</p>
                 <p>• The system significantly reduced overall Service-Level Agreement by 30%, improved customer self-service, and is currently in use by over 60 customers.</p>
                 <p>• Maintained and supported end-to-end development, testing, deployment, and support of the frontend and backend application while collaborating with the product manager, UX designer, and solution architect to ensure product standards, optimal performance and user experience.</p>
