@@ -20,16 +20,7 @@ const About = () => {
         </p>
         <p className="about-details">
           After completing my undergraduate studies, I spent two years working as an Analyst Programmer 
-          in the New Initiatives team at 
-          <a
-            href="https://www.ramco.com/"
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="resume-links"
-          >
-            Ramco Systems
-          </a>
-          . This role gave me the opportunity to work closely 
+          in the New Initiatives team at Ramco Systems. This role gave me the opportunity to work closely 
           with the leadership team and develop interesting, fast-paced products that had a direct impact 
           on customers and internal teams. One of my most notable achievements in this role was building 
           a full stack system from scratch, with guidance from stakeholders, which was eventually released 
@@ -38,25 +29,8 @@ const About = () => {
         <p className="about-details">
           I specialize in full stack product development and machine learning. My technical skills are 
           complemented by my ability to think creatively, analyze problems, and communicate effectively. 
-          Currently, I am pursuing a Master of Science in 
-          <a
-            url="https://cse.ucsd.edu/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="resume-links"
-          >
-            Computer Science 
-          </a>
-          from the 
-          <a
-            url="https://ucsd.edu/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="resume-links"
-          >
-            University of California, San Diego
-          </a>
-          , with a focus in software engineering and artificial intelligence. I am seeking an 
+          Currently, I am pursuing a Master of Science in Computer Science from the University of California, 
+          San Diego, with a focus in software engineering and artificial intelligence. I am seeking an 
           internship opportunity for Summer 2023, and I am confident that my general problem-solving skills, 
           math background, and fundamental knowledge of computer science will allow me to adapt and excel 
           in any project that aligns with my interests and background. With my skills and passion, 
