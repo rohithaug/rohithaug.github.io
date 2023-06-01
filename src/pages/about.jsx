@@ -4,6 +4,9 @@ import React from "react";
 // IMPORT STYLES
 import "../styles/about.css";
 
+// IMPORT ICONS
+import PartyPopperIcon from "../assets/icons/partyPopper";
+
 const About = () => {
   return (
     <div className="about-container">
@@ -22,19 +25,27 @@ const About = () => {
           After completing my undergraduate studies, I spent two years working as an Analyst Programmer 
           in the New Initiatives team at Ramco Systems. This role gave me the opportunity to work closely 
           with the leadership team and develop interesting, fast-paced products that had a direct impact 
-          on customers and internal teams. One of my most notable achievements in this role was building 
-          a full stack system from scratch, with guidance from stakeholders, which was eventually released 
-          and is currently being used by over 60 customers.
-        </p>
-        <p className="about-details">
+          on customers and internal teams.
           I specialize in full stack product development and machine learning. My technical skills are 
           complemented by my ability to think creatively, analyze problems, and communicate effectively. 
           Currently, I am pursuing a Master of Science in Computer Science from the University of California, 
           San Diego, with a focus in software engineering and artificial intelligence. I am confident that my 
           general problem-solving skills, math background, and fundamental knowledge of computer science will 
-          allow me to adapt and excel in any project that aligns with my interests and background. With my 
-          skills and passion, I am excited to make a positive impact in any organization and work towards 
-          achieving their goals and corporate mission.
+          allow me to adapt and excel in any project that aligns with my interests and background.  
+          
+          {/* One of my most notable achievements in this role was building 
+          a full stack system from scratch, with guidance from stakeholders, which was eventually released 
+          and is currently being used by over 60 customers.
+        </p>
+        <p className="about-details"> */}
+
+          {/* With my skills and passion, I am excited to make a positive impact in any organization and work towards 
+          achieving their goals and corporate mission. */}
+        </p>
+        <p className="about-details">
+          <PartyPopperIcon /> {" "}
+          Thrilled to share that I will be joining Dolby Laboratories as an intern, where I will be working with 
+          the talented Cloud Media Solutions team to drive innovation in cloud-based media technologies.
         </p>
         <p className="about-details">
           Looking to the future, my ultimate goal is to make a significant impact in the industry by 
