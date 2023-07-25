@@ -9,6 +9,7 @@ import studyingLogo from'../assets/images/studying.png';
 import workingLogo from'../assets/images/working.png';
 import psgLogo from'../assets/images/psg-logo.png';
 import ramcoLogo from'../assets/images/ramco-logo.png';
+import dolbyLogo from'../assets/images/dolby-logo.png';
 
 // IMPORT CONTAINERS
 import ResumeIcons from "../containers/resume/icons";
@@ -147,6 +148,39 @@ const Resume = () => {
               <div className="inner">
               </div>
             </div>
+
+            <li className="resume-item active">
+              <div className="title">
+                <a
+                  href="https://www.dolby.com/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="resume-links"
+                >
+                  DOLBY LABORATORIES
+                </a>
+              </div>
+
+              <div className="sub-title">
+                Cloud Processing Engineer · Internship
+              </div>
+
+              <div className="sub-sub-title">June 2023 - September 2023</div>
+              <div className="sub-sub-title">Remote California</div>
+
+              <img 
+                src={dolbyLogo} 
+                className="resume-logo dolby-logo"
+                alt=""
+              ></img>
+              <div className="content">
+                <p><b>Skills</b>: Cloud Research · Software Profiling · Serverless Compute</p>
+                <p>• Developed a system that automatically identifies the most cost and performance effective parameters for serverless compute of real-world cloud usage scenarios on AWS Lambda and GCP Cloud Run Service.</p>
+                <p>• The research focused on maximizing performance while ensuring low operational costs by optimizing critical settings such as Memory Size and Number of CPU’s. This is achieved by analyzing for patterns from data to strategically find the best parameters by performing a binary search-based profiling.</p>
+                <p>• The result will also include configurations with lowest cost and highest performance for use cases such as streaming for a big game night when performance is of priority.</p>
+              </div>
+              <div className="pointer"></div>
+            </li>
 
             <li className="resume-item">
               <div className="title">

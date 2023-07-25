@@ -218,6 +218,12 @@
     height: auto;
 }
 
+.dolby-logo {
+    min-width: 100px;
+    width: 14vw;
+    height: auto;
+}
+
 .resume-links {
     color: #666666;
     text-decoration: none;

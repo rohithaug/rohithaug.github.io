@@ -44,8 +44,8 @@ const About = () => {
         </p>
         <p className="about-details">
           <PartyPopperIcon /> {" "}
-          Thrilled to share that I will be joining Dolby Laboratories as an intern, where I will be working with 
-          the talented Cloud Media Solutions team to drive innovation in cloud-based media technologies.
+          Thrilled to share that I'm working at Dolby Laboratories this summer as an intern, with the talented 
+          Cloud Media Solutions Research team to drive innovation in cloud-based media technologies.
         </p>
         <p className="about-details">
           Looking to the future, my ultimate goal is to make a significant impact in the industry by 
