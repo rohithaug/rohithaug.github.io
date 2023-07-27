@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.eeb92e5f.css",
-    "main.js": "/static/js/main.1c9ccbb8.js",
+    "main.js": "/static/js/main.413193c0.js",
     "static/media/rohith.jpeg": "/static/media/rohith.0993fe3d811b8fc1d8e8.jpeg",
     "static/media/ucsd-logo.png": "/static/media/ucsd-logo.8ff136e6e515751cbce0.png",
     "static/media/working.png": "/static/media/working.048171f3f1fd6acb6af5.png",
     "static/media/psg-logo.png": "/static/media/psg-logo.91e77536c98ac2d70b22.png",
     "static/media/ramco-logo.png": "/static/media/ramco-logo.6db34c1257dfcd95baaf.png",
-    "static/media/dolby-logo.png": "/static/media/dolby-logo.496e263528457b1d2bb1.png",
+    "static/media/dolby-logo.png": "/static/media/dolby-logo.e934f8b4b21cda8da285.png",
     "static/media/studying.png": "/static/media/studying.89ca322f53bff9fbf5b0.png",
     "index.html": "/index.html",
     "main.eeb92e5f.css.map": "/static/css/main.eeb92e5f.css.map",
-    "main.1c9ccbb8.js.map": "/static/js/main.1c9ccbb8.js.map"
+    "main.413193c0.js.map": "/static/js/main.413193c0.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb92e5f.css",
-    "static/js/main.1c9ccbb8.js"
+    "static/js/main.413193c0.js"
   ]
 }
