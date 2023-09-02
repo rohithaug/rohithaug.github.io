@@ -104,7 +104,7 @@ const Resume = () => {
               ></img>
               <div className="content">
                 <p><b>CGPA</b>: 9.91/10.0</p>
-                <p>• Best Outgoing Student and Gold Medallist - Batch of 2020</p>
+                <p>• Best Outgoing Student and Gold Medalist - Batch of 2020</p>
                 <p>• Student Researcher at the R&D Center (Advisors:{" "}
                     <a
                       href="https://www.psgtech.edu/profileurl.php?id=C513" 
@@ -174,10 +174,11 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p><b>Skills</b>: Cloud Research · Software Profiling · Serverless Compute</p>
+                <p><b>Skills</b>: Cloud Research · Software Profiling · Deep Learning · ML Engineering · Serverless Compute</p>
                 <p>• Developed a system that automatically identifies the most cost and performance effective parameters for serverless compute of real-world cloud usage scenarios on AWS Lambda and GCP Cloud Run Service.</p>
-                <p>• The research focused on maximizing performance while ensuring low operational costs by optimizing critical settings such as Memory Size and Number of CPU’s. This is achieved by analyzing for patterns from data to strategically find the best parameters by performing a binary search-based profiling.</p>
+                <p>• Research on optimizing critical settings such as Memory Size and Number of CPUs to maximize performance while ensuring low operational costs by analyzing for patterns from data to strategically find the best parameters by performing a binary search-based profiling.</p>
                 <p>• The result will also include configurations with lowest cost and highest performance for use cases such as streaming for a big game night when performance is of priority.</p>
+                <p>• Designed and implemented an end-to-end ML engineering pipeline that includes data profiling using Node.js on AWS Lambda, automated model training in Python, and real-time predictions through a Node.js API.</p> 
               </div>
               <div className="pointer"></div>
             </li>
@@ -207,14 +208,13 @@ const Resume = () => {
                 alt=""
               ></img>
               <div className="content">
-                <p><b>Skills</b>: Full Stack Development · API Integration · Distributed Systems · Deployment Automation · Data Science</p>
+                <p><b>Skills</b>: Full Stack Development · API Integration · Distributed Systems · Data Science</p>
                 <p>• Led the development of a customer support system for ticket creation, incorporating information transfer from the core product to JIRA to streamline fix generation for support teams. The system featured a client-facing application built with React and a Node.JS backend, which communicated with the Ramco Software, Identity Server, and a centralized Node.JS server connected to JIRA, a documentation tool (XWiki), and MongoDB.</p>
                 <p>• The system significantly reduced overall Service-Level Agreement by 30%, improved customer self-service, and is currently in use by over 60 customers.</p>
                 <p>• Maintained and supported end-to-end development, testing, deployment, and support of the frontend and backend application while collaborating with the product manager, UX designer, and solution architect to ensure product standards, optimal performance and user experience.</p>
                 <p>• Integrated UI and server logs from the system into Elastic and designed dashboards in Kibana to monitor performance and usage metrics.</p>
                 <p>• Implemented a classification model for predicting Ticket Type and Subtype using Supervised Machine Learning, which was later refined using the BERT Transformer Model, resulting in an accuracy rate of 86%.</p>
                 <p>• Developed a module that dynamically suggests help content based on the Product Business Component, Screen Context, and User Issue Summary from the company's documentation site using Solr Search.</p>
-                <p>• Automated the deployment pipeline for the system, enabling efficient scaling of feature releases for over 40 public cloud customers.</p>
                 <p>• Built 25+ and reviewed 40+ UI components for the Ramco Low Code Platform.</p>
                 <p>• Designed and developed a scheduler to sync time bookings of over 300 employees from JIRA and Wrike to the internal timesheet application, allowing for accurate tracking of effort spent on various projects and support activities.</p>
                 {/* <p>• Spearheaded the development of customer support system for ticket creation to ease fix generation for support teams. Client application (React and Node.JS) communicates with the Ramco Software, Identity Server and a centralized server connected to JIRA, Documentation Tool (XWiki) and MongoDB. The system helped reduce the overall Service-Level Agreement by 30%, improved customer self-service and is currently in live for 60+ customers.</p>

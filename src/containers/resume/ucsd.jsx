@@ -35,7 +35,7 @@ const Ucsd = () => {
         <div className="content">
             <p><b>CGPA</b>: 4.0/4.0</p>
             <p><b>Courses:</b></p>
-            <p><b>&ensp;• Spring 2023 Quarter [April 2023 to Present]</b></p>
+            <p><b>&ensp;• Spring 2023 Quarter [April 2023 to July 2023]</b></p>
             <p>&emsp; 1. CSE 256 - Statistical Natural Language Processing by Professor {" "} 
                 <ResumeLink 
                     name="Ndapa Nakashole" 

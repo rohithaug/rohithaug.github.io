@@ -27,11 +27,14 @@ const About = () => {
           with the leadership team and develop interesting, fast-paced products that had a direct impact 
           on customers and internal teams.
           I specialize in full stack product development and machine learning. My technical skills are 
-          complemented by my ability to think creatively, analyze problems, and communicate effectively. 
+          complemented by my ability to think creatively, analyze problems, and communicate effectively.          
           Currently, I am pursuing a Master of Science in Computer Science from the University of California, 
           San Diego, with a focus in software engineering and artificial intelligence. I am confident that my 
           general problem-solving skills, math background, and fundamental knowledge of computer science will 
-          allow me to adapt and excel in any project that aligns with my interests and background.  
+          allow me to adapt and excel in any project that aligns with my interests and background. 
+          With my skills and passion, I am excited to make a positive impact in any organization and 
+          work towards achieving their goals and corporate mission. 
+          I am actively seeking full time opportunities starting January/April 2024.
           
           {/* One of my most notable achievements in this role was building 
           a full stack system from scratch, with guidance from stakeholders, which was eventually released 
@@ -39,8 +42,6 @@ const About = () => {
         </p>
         <p className="about-details"> */}
 
-          {/* With my skills and passion, I am excited to make a positive impact in any organization and work towards 
-          achieving their goals and corporate mission. */}
         </p>
         <p className="about-details">
           <PartyPopperIcon /> {" "}
