@@ -149,7 +149,7 @@ const Resume = () => {
               </div>
             </div>
 
-            <li className="resume-item active">
+            <li className="resume-item">
               <div className="title">
                 <a
                   href="https://www.dolby.com/"

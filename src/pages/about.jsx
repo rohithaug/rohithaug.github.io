@@ -5,7 +5,7 @@ import React from "react";
 import "../styles/about.css";
 
 // IMPORT ICONS
-import PartyPopperIcon from "../assets/icons/partyPopper";
+// import PartyPopperIcon from "../assets/icons/partyPopper";
 
 const About = () => {
   return (
