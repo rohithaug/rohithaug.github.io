@@ -30,8 +30,7 @@ const About = () => {
           I am confident that my general problem-solving skills, math background, and fundamental 
           knowledge of computer science will allow me to adapt and excel in any project that aligns 
           with my interests and background. With my skills and passion, I am excited to make a positive 
-          impact in the software industry. I am actively seeking full time opportunities starting 
-          January/April 2024.
+          impact in the software industry. I am actively seeking full time opportunities starting April 2024.
 
           {/* After completing my undergraduate studies, I spent two years working as an Analyst Programmer 
           in the New Initiatives team at Ramco Systems. This role gave me the opportunity to work closely 
