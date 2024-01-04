@@ -34,7 +34,7 @@ const Ucsd = () => {
 
         <div className="content">
             <p><b>Graduate Teaching Assistant:</b></p>
-            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Decision Making with Professor {" "} 
+            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Learning with Professor {" "} 
                 <ResumeLink 
                     name="Taylor Berg-Kirkpatrick" 
                     url="https://cseweb.ucsd.edu/~tberg/" 
@@ -106,7 +106,7 @@ const Ucsd = () => {
             </p>
 
             <p><b>&ensp;• Fall 2022 Quarter [September 2022 to December 2022]</b></p>
-            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Decision Making by Professor {" "} 
+            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Learning by Professor {" "} 
                 <ResumeLink 
                     name="Taylor Berg-Kirkpatrick" 
                     url="https://cseweb.ucsd.edu/~tberg/" 
