@@ -24,7 +24,7 @@ const Ucsd = () => {
             />
         </div>
 
-        <div className="sub-sub-title">September 2022 - Current</div>
+        <div className="sub-sub-title">September 2022 - March 2024</div>
 
         <img 
         src={ucsdLogo} 
@@ -33,8 +33,32 @@ const Ucsd = () => {
         ></img>
 
         <div className="content">
+            <p><b>Graduate Teaching Assistant:</b></p>
+            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Decision Making with Professor {" "} 
+                <ResumeLink 
+                    name="Taylor Berg-Kirkpatrick" 
+                    url="https://cseweb.ucsd.edu/~tberg/" 
+                /> - Fall 2023 (~300 students)
+            </p>
+            {/* Students Rating: 94.1% (Based on submitted evaluations) */}
+            <p>&emsp; 2. CSE 251A - Machine Learning Algorithms with Professor {" "} 
+                <ResumeLink 
+                    name="Taylor Berg-Kirkpatrick" 
+                    url="https://cseweb.ucsd.edu/~tberg/" 
+                /> - Winter 2024 (~350 students)
+            </p>
+            {/* Students Rating: (Based on submitted evaluations) */}
             <p><b>CGPA</b>: 4.0/4.0</p>
             <p><b>Courses:</b></p>
+            <p><b>&ensp;• Fall 2023 Quarter [September 2023 to December 2023]</b></p>
+            <p>&emsp; 1. CSE 218 - Advanced Topics in Software Engineer by Professor {" "} 
+                <ResumeLink 
+                    name="Nadir Weibel" 
+                    url="https://hxi.ucsd.edu/author/nadir-weibel/" 
+                />
+            </p>
+            <p>&emsp; 2. CSE 599 - Teaching Methods in Computer Science</p>
+            <p>&emsp; 3. ECE 290 - Seminar Series </p>
             <p><b>&ensp;• Spring 2023 Quarter [April 2023 to July 2023]</b></p>
             <p>&emsp; 1. CSE 256 - Statistical Natural Language Processing by Professor {" "} 
                 <ResumeLink 
@@ -82,7 +106,7 @@ const Ucsd = () => {
             </p>
 
             <p><b>&ensp;• Fall 2022 Quarter [September 2022 to December 2022]</b></p>
-            <p>&emsp; 1. CSE 250A - Probabilistic Reasoning and Learning by Professor {" "} 
+            <p>&emsp; 1. CSE 250A - AI: Probabilistic Reasoning and Decision Making by Professor {" "} 
                 <ResumeLink 
                     name="Taylor Berg-Kirkpatrick" 
                     url="https://cseweb.ucsd.edu/~tberg/" 

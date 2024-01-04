@@ -21,7 +21,7 @@ const Home = () => {
 
       <div className="home-intro">
         <p className="home-name">Hi there! I am Rohith.</p>
-        <p className="home-university">GRADUATE STUDENT @ UC SAN DIEGO | INTERN @ DOLBY LABS</p>
+        <p className="home-university">GRADUATE STUDENT @ UC SAN DIEGO</p>
         <p className="home-address">La Jolla, California</p>
       </div>
 
