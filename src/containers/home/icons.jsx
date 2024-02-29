@@ -43,16 +43,6 @@ const HomeIcons = () => {
                 <EmailIcon className="home-icons email"/>
                 </a>
             </li>
-
-            <li>
-                <a 
-                    href="https://scholar.google.com/citations?user=4KHK9tQAAAAJ&hl=en" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    <GoogleScholarIcon className="home-icons google-scholar"/>
-                </a>
-            </li>
         </ul>
     );
 }
