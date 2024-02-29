@@ -31,16 +31,6 @@ const ResumeIcons = () => {
                     <GithubIcon className="resume-icons github"/>
                 </a>
             </li>
-
-            <li>
-                <a 
-                    href="https://scholar.google.com/citations?user=4KHK9tQAAAAJ&hl=en" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    <GoogleScholarIcon className="resume-icons google-scholar"/>
-                </a>
-            </li>
         </ul>
     );
 }
