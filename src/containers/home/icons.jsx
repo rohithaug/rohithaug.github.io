@@ -34,15 +34,15 @@ const HomeIcons = () => {
                 </a>
             </li>
 
-            <li>
+            {/* <li>
                 <a 
-                href="mailto:rohithaug@gmail.com" 
+                href="mailto:rohithcbi9343@gmail.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 >
                 <EmailIcon className="home-icons email"/>
                 </a>
-            </li>
+            </li> */}
         </ul>
     );
 }
